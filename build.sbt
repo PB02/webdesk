@@ -6,6 +6,8 @@ version := "0.0.1"
 
 scalaVersion := "2.10.1"
 
+EclipseKeys.withSource := true
+
 seq(com.github.siasia.WebPlugin.webSettings :_*)
 
 libraryDependencies ++= {
